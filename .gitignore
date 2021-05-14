@@ -88,3 +88,7 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# Nuxt Google Font module files (downloads upon loading development or product environments)
+assets/fonts/*.woff2
+assets/css/fonts.css

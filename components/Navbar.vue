@@ -11,5 +11,6 @@
 .navbar {
     display: flex;
     justify-content: space-evenly;
+    font-family: Rubik, sans-serif;
 }
 </style>
