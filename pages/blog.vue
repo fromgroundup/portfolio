@@ -1,5 +1,7 @@
 <template>
-    <div>{{posts}}</div>
+    <div>
+        <BlogPostListing v-for="post in posts" :preview="post" :key="post.path"/>
+    </div>
 </template>
 
 <script>
