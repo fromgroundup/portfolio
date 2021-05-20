@@ -1,7 +1,9 @@
 <template>
     <div class="skill-listing">
-        <div>{{skill.name}}</div>
-        <div>{{skill.summary}}</div>
+        <nuxt-link :to="'/skill/' + skill.slug">
+            <div>{{skill.name}}</div>
+            <div>{{skill.summary}}</div>
+        </nuxt-link>
     </div>
 </template>
 
