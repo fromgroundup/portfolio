@@ -1,7 +1,35 @@
-.heading {
-    font-family: Rubik, sans-serif
+.page-enter, .page-leave-to {
+    opacity: 0
 }
 
-.content {
-    font-family: Karla, sans-serif
+.page-enter-active, .page-leave-active {
+    transition: opacity 0.4s
+}
+
+html {
+    background-color: #f1eee6;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.montserrat {
+    font-family: Montserrat, sans-serif;
 }
