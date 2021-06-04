@@ -53,8 +53,8 @@ export default {
     download: true,
     display: 'swap',
     families: {
-      Rubik: true,
-      Karla: true
+      'Open Sans': [300, 400, 600, 700],
+      Montserrat: [100, 300, 400, 700]
     }
   }
 }

@@ -1,8 +1,8 @@
 <template>
     <div>
-        <div class="heading">{{project.name}}</div>
-        <div class="content">{{project.summary}}</div>
-        <nuxt-content :document="project" class="content"/>
+        <div class="open-sans">{{project.name}}</div>
+        <div class="montserrat">{{project.summary}}</div>
+        <nuxt-content :document="project" class="montserrat"/>
     </div>
 </template>
 

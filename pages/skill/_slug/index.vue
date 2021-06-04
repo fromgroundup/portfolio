@@ -1,8 +1,8 @@
 <template>
     <div>
-        <div class="heading">{{skill.name}}</div>
-        <div class="content">{{skill.summary}}</div>
-        <nuxt-content :document="skill" class="content"/>
+        <div class="open-sans">{{skill.name}}</div>
+        <div class="montserrat">{{skill.summary}}</div>
+        <nuxt-content :document="skill" class="montserrat"/>
     </div>
 </template>
 

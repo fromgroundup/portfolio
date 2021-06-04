@@ -1,8 +1,8 @@
 <template>
     <div class="project-listing">
         <nuxt-link :to="'/project/' + project.slug">
-            <div class="heading">{{project.name}}</div>
-            <div class="content">{{project.summary}}</div>
+            <div class="open-sans">{{project.name}}</div>
+            <div class="montserrat">{{project.summary}}</div>
         </nuxt-link>
     </div>
 </template>

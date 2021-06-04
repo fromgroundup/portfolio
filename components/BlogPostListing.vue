@@ -1,9 +1,9 @@
 <template>
     <div class="listing">
         <nuxt-link :to="'/post/' + preview.slug">
-            <div class="heading">{{preview.title}}</div>
-            <div class="heading">{{preview.subtitle}}</div>
-            <div class="content">{{preview.updatedAt}}</div>
+            <div class="open-sans">{{preview.title}}</div>
+            <div class="open-sans">{{preview.subtitle}}</div>
+            <div class="montserrat">{{preview.updatedAt}}</div>
         </nuxt-link>
     </div>
 </template>
